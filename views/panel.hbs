@@ -1,0 +1,20 @@
+<h1>Panel de administradores</h1>
+
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Usuario</td>
+        <td>Password</td>
+        <td>Mail confirmado</td>
+    </tr>
+
+      {{#each dato}}
+    <tr>
+        <td>{{id_usuario}}</td>
+        <td>{{usuario}}</td>
+        <td>{{password}}</td>
+        <td>{{confirmar}}</td>
+
+    </tr>
+    {{/each}}
+</table>
